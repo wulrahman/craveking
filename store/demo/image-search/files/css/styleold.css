@@ -1,0 +1,425 @@
+@media print {
+* {
+background : transparent !important ;
+color : #000 !important ;
+text-shadow : none !important ;
+}
+a, a:visited {
+text-decoration : underline;
+}
+a[href]:after {
+content : " (" attr(href) ")";
+}
+abbr[title]:after {
+content : " (" attr(title) ")";
+}
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+content : "";
+}
+pre, blockquote {
+border : #999 solid 1px;
+page-break-inside : avoid;
+}
+thead {
+display : table-header-group;
+}
+tr, img {
+page-break-inside : avoid;
+}
+img {
+max-width : 100% !important ;
+}
+p, h2, h3 {
+orphans : 3;
+widows : 3;
+}
+h2, h3 {
+page-break-after : avoid;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+display : block;
+}
+audio, canvas, video {
+display : inline;
+}
+html {
+font-size : 100%;
+overflow-y : scroll;
+}
+body {
+font-size : 13px;
+line-height : 1.231;
+margin : 0;
+}
+body, button, input, select, textarea {
+font-family : sans-serif;
+color : #222;
+}
+a {
+color : #00e;
+}
+a:visited {
+color : #551a8b;
+}
+a:hover {
+color : #06e;
+}
+a:focus {
+outline : thin dotted;
+}
+a:hover, a:active {
+outline : 0;
+}
+abbr[title] {
+border-bottom : 1px dotted;
+}
+b, strong {
+font-weight : 700;
+}
+blockquote {
+margin : 1em 40px;
+}
+dfn {
+font-style : italic;
+}
+hr {
+display : block;
+height : 1px;
+border : 0;
+border-top : 1px solid #ccc;
+margin : 1em 0;
+padding : 0;
+}
+ins {
+background : #ff9;
+color : #000;
+text-decoration : none;
+}
+mark {
+background : #ff0;
+color : #000;
+font-style : italic;
+font-weight : 700;
+}
+pre, code, kbd, samp {
+font-family : monospace, monospace;
+font-size : 1em;
+}
+pre {
+white-space : pre-wrap;
+overflow-wrap : break-word;
+}
+q {
+quotes : none;
+}
+q:before, q:after {
+content : none;
+}
+small {
+font-size : 85%;
+}
+sub, sup {
+font-size : 75%;
+line-height : 0;
+position : relative;
+vertical-align : baseline;
+}
+sup {
+top : -0.5em;
+}
+sub {
+bottom : -0.25em;
+}
+ul, ol {
+margin : 1em 0;
+padding : 0 0 0 40px;
+}
+dd {
+margin : 0 0 0 40px;
+}
+nav ul, nav ol {
+list-style : none;
+list-style-image : none;
+margin : 0;
+}
+img {
+border : 0;
+vertical-align : middle;
+}
+svg:not(:root) {
+overflow : hidden;
+}
+fieldset {
+border : 0;
+margin : 0;
+padding : 0;
+}
+label {
+cursor : pointer;
+}
+legend {
+border : 0;
+margin-left : -7px;
+padding : 0;
+}
+button, input, select, textarea {
+font-size : 100%;
+margin : 0;
+}
+button, input {
+line-height : normal;
+overflow : visible;
+}
+table button, table input {
+overflow : auto;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+cursor : pointer;
+}
+input[type="checkbox"], input[type="radio"] {
+box-sizing : border-box;
+}
+input[type="search"] {
+box-sizing : content-box;
+}
+textarea {
+overflow : auto;
+vertical-align : top;
+resize : vertical;
+}
+table {
+border-collapse : collapse;
+border-spacing : 0;
+}
+td {
+vertical-align : top;
+}
+.ir {
+display : block;
+border : 0;
+text-indent : -999em;
+overflow : hidden;
+background-color : transparent;
+background-repeat : no-repeat;
+text-align : left;
+direction : ltr;
+}
+.hidden {
+display : none !important ;
+visibility : hidden;
+}
+.visuallyhidden {
+border : 0;
+clip : rect(0 0 0 0);
+height : 1px;
+overflow : hidden;
+position : absolute;
+width : 1px;
+margin : -1px;
+padding : 0;
+}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+clip : auto;
+height : auto;
+overflow : visible;
+position : static;
+width : auto;
+margin : 0;
+}
+.invisible {
+visibility : hidden;
+}
+.clearfix:before, .clearfix:after {
+content : "";
+display : table;
+}
+.clearfix:after {
+clear : both;
+}
+audio:not([controls]), [hidden], .ir br {
+display : none;
+}
+figure, form {
+margin : 0;
+}
+}
+* {
+margin : 0;
+padding : 0;
+border : 0;
+}
+figure, footer, header, nav, section, figcaption {
+display : block;
+}
+#imagegallery section figure {
+position : relative;
+float : left;
+margin : 10px;
+max-width : 200px;
+height : 200px;
+border : #C0C0C0 solid 1px;
+overflow : hidden;
+background : #fff;
+padding : 1px;
+}
+#imagegallery section figure figcaption {
+position : absolute;
+bottom : 0;
+left : 0;
+opacity : 0.75;
+margin-bottom : -115px;
+}
+#imagegallery section figure:hover figcaption {
+margin-bottom : 0;
+}
+#imagegallery section figcaption {
+width : 100%;
+height : 115px;
+background : #111;
+color : #fff;
+font-family : Arial, Helvetica, sans-serif;
+}
+#imagegallery section figcaption h3 {
+margin : 15px 15px 6px 15px;
+text-shadow : 0 2px 0 #000;
+}
+#imagegallery section figcaption p {
+margin : 0 15px;
+color : #ddd;
+line-height : 24px;
+font-size : 14px;
+text-shadow : 0 2px 0 #000;
+}
+body {
+background : #fff;
+font-family : Arial, Helvetica, sans-serif;
+}
+header {
+width : 100%;
+background : #272727;
+}
+header h1 {
+color : #fff;
+font-family : Arial, Helvetica, sans-serif;
+font-size : 20px;
+padding : 20px 20px 0 20px;
+}
+header h1 a {
+text-decoration : none;
+}
+header p {
+color : #aaa;
+font-family : Arial, Helvetica, sans-serif;
+font-size : 13px;
+padding : 2px 20px 20px 20px;
+line-height : 20px;
+}
+header a {
+color : #fff;
+}
+header a:hover {
+color : #ddd;
+}
+nav {
+border-top : 1px solid #fff;
+border-bottom : 1px solid #ccc;
+background : #eee;
+width : 100%;
+}
+nav ul {
+padding : 11px 20px;
+}
+nav li {
+display : inline;
+margin-right : 7px;
+}
+nav li a {
+font-size : 13px;
+color : #555;
+text-decoration : none;
+text-shadow : 0 1px 0 #fff;
+border-radius : 25px;
+border : #ccc solid 1px;
+background : #ddd;
+padding : 1px 7px;
+}
+nav li a:hover {
+color : #000;
+border : #aaa solid 1px;
+}
+nav li a:active {
+background : #ccc;
+border : #888 solid 1px;
+}
+#imagegallery section {
+padding : 20px;
+}
+#imagegallery section h2 {
+font-size : 19px;
+color : #222;
+}
+#imagegallery section p {
+font-size : 12px;
+color : #666;
+margin-top : 2px;
+line-height : 20px;
+}
+#imagegallery h5 {
+position : fixed;
+font-size : 12px;
+color : #555;
+background : #bbb;
+padding : 5px 20px;
+bottom : 0;
+border-bottom : 1px solid #aaa;
+border-top : 1px solid #ddd;
+text-shadow : 0 1px 0 #eee;
+}
+#imagegallery h6 {
+position : fixed;
+font-size : 12px;
+color : #555;
+background : #bbb;
+padding : 5px 0;
+bottom : 0;
+right : 0;
+border-bottom : 1px solid #aaa;
+border-right : 1px solid #ddd;
+text-shadow : 0 1px 0 #eee;
+}
+label, input, textarea, select, button {
+font : 18px/20px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+input, textarea, select {
+background-color : #FFF;
+border : #CCC solid 1px;
+border-radius : 3px 3px 3px 3px;
+display : inline-block;
+margin : 0;
+outline : medium none;
+padding : 4px;
+}
+input[type="button"], input[type="reset"], input[type="submit"] {
+height : auto;
+width : auto;
+}
+img, object, embed, video {
+max-width : 100%;
+}
+.ie6 img {
+width : 100%;
+}
+.gridContainer {
+margin-left : auto;
+margin-right : auto;
+width : 87.36%;
+padding-left : 1.82%;
+padding-right : 1.82%;
+}
+#LayoutDiv1 {
+clear : both;
+float : left;
+margin-left : 0;
+width : 100%;
+display : block;
+}

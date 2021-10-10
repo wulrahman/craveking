@@ -1,0 +1,28 @@
+#main_body > h3 {
+    margin: 10px 3px;
+    font-weight: normal;
+}
+#main_body > h1 {
+    margin: 10px 3px;
+    font-weight: lighter;
+}
+#main_body {
+    background-color: #ffffff;  
+    margin: 20px auto;  
+    width: 800px;  
+    padding: 1px 15px 15px 15px;
+}
+.margin {
+    margin: 10px 3px;
+}
+#main_body ul {
+    margin: 15px 3px;
+}
+body {
+    background-image: url(http://wallpoper.com/images/00/44/34/05/blurred-lights_00443405.jpg);  font-size: small;  font-family: arial,sans-serif;  margin: 0;
+    color: #666;
+    line-height: 1.5;
+}
+footer {
+    margin: 10px 3px;
+}

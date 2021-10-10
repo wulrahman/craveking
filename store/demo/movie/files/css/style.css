@@ -1,0 +1,139 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.rating {
+    display: inline-block;
+    padding-bottom: 3px;
+    vertical-align: bottom;
+    padding-left: 7px;
+}
+footer b {
+    font-weight: 100!important;
+}
+body {
+    word-wrap: break-word;
+    font-family: arial,sans-serif;
+    line-height: 22px;
+    font: 13px/25px arial,sans-serif;
+    color: #555;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h3 {
+    font-size: medium;
+    
+    font-weight: 100!important;
+}
+
+
+a {
+    color: #12c;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #fff;
+    padding: 15px 20px;
+    font-weight: 100!important;
+    text-align: center;
+}
+
+input[type=submit].g-button {
+    vertical-align: top;
+    background-color: transparent;
+    border: 1px solid #DDD;
+    color: #777;
+    font-size: 14px;
+    border-left: 0;
+    padding: 11px 14px;
+    display: inline-block;
+    /* border-radius: 0 3px 3px 0; */
+}
+
+input.input-text {
+    vertical-align: top;
+    width: 510px;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    outline: 0;
+    border-right: 0;
+    padding: 8.5px 12px;
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 100!important;
+}
+img.logo_results {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+form#search-form {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigation_results a {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 30px;
+}
+
+.navigation_results {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+.info_web-primary img {
+    width: 100%;
+}
+
+.main_image {
+    width: 300px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.main_info {
+    padding: 20px 15px 30px 15px;
+    line-height:2;
+    display: inline-block;
+    width: 350px;
+}
+.main_info h3 {
+    display: inline-block!important;
+    max-width: 310px;
+}
+.main_info .spacer {
+   display: block;
+   margin: 10px 0;
+}
+.info_web-primary {
+    max-width: 750px;
+    margin: auto;
+    background-color: #fcfcfc;
+    border-radius: 5px 0 0 0;
+    border: 1px solid #EEE;
+}
+
+.info_web-primary {}

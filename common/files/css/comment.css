@@ -1,0 +1,112 @@
+/*comment*/
+div#comment {
+    margin-right: 10px;
+}
+#comment ul {
+    list-style: none;
+}
+.comment-reply {
+    margin-left: 70px;
+}
+.comment-reply.comment_box_reply {
+    display: none;
+    background-color: #fff;
+}
+.comment .item-list .comment-like {
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 1.6;
+    margin: 0 5px 0 0;
+}
+.comment .item-list .comment-like form {
+    display: inline-block;
+}
+.comment .item-list .comment-like input[type="image"] {
+    width: 19px;
+    vertical-align: middle;
+}
+.comment .item-list .comment-date {
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0 5px 0 0;
+    display: inline-block;
+    line-height: 1.6;
+    vertical-align: bottom;
+    color: #1b98f8;
+}
+.comment .item-list .comment-name {
+    font-size:13px;
+    font-weight: 100;
+    margin: 0 5px 0 0;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 1.6;
+}
+.comment .item-list .comment-spam {
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 1.6;
+}
+.comment button.hide {
+    display: inline-block;
+    line-height: 1.6;
+    font-size: 11px;
+    color: #fff;
+    border: 0;
+    background-color: #e63913;
+    width: 120px;
+    padding: 7px;
+    margin: 0;
+    float: right;
+}
+
+.comment button.show {
+    display: inline-block;
+    margin-top: -20px;
+    font-size: 11px;
+    line-height: 1.6;
+    border: 0;
+    background-color: transparent;
+}
+
+.comment .comment_box textarea.comment_textarea {
+    border: 1px solid #d9d9d9;
+    height: 75px;
+}
+
+.comment .comment_box input[type="submit"] {
+    display: inline-block;
+    line-height: 1.6;
+    font-size: 11px;
+    border: 0;
+    width: 120px;
+    background-color: #2481d0;
+    color: #fff;
+    padding: 7px;
+    margin: 0;
+}
+#comment li img.item-thumb {
+    width: auto;
+    height: 46px!Important;
+    line-height: 46px;
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+    font-weight: normal;
+    margin:0;
+}
+
+#comment li .item-list.pure-g {
+    background-color: transparent!Important;
+    border: 0!Important;
+}
+#comment li .item-list.pure-g {
+    padding:10px 0;
+}
+
+/*comment right*/
+#comment .comment_box_reply .right {
+}
+#comment .commentbox .right {
+}

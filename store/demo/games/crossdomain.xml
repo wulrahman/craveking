@@ -1,0 +1,6 @@
+<cross-domain-policy>
+<site-control permitted-cross-domain-policies="master-only"/>
+<allow-access-from domain="x.mochiads.com"/>
+<allow-access-from domain="www.mochiads.com"/>
+<allow-access-from domain="www.mochimedia.com"/>
+</cross-domain-policy>

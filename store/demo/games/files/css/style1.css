@@ -1,0 +1,70 @@
+#logo {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+}
+form#form1 {
+    display: inline-block;
+    padding: 11px;
+    vertical-align: top;
+}
+header#main_header {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+img.games_thumb {
+    width: 130px;
+}
+#home_game_main li {
+    display: inline-block;
+    width: 130px;
+    margin: 10px 0;
+    margin-right: 10px;
+    vertical-align: top;
+}
+#home_game_main {
+    margin: 0;
+    padding: 0;
+}
+#main_category li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 9px;
+    background-color: #ececec;
+    border: 1px solid #ddd;
+    border-left: 0;
+}
+#header_input {
+    padding: 10px;
+    width: 450px;
+    vertical-align: top;  
+    border: 1px solid #ddd;
+    border-right: 0;
+    display: inline-block;
+}
+#header_search {  background-color: #4d90fe; border: 1px solid #3079ed; color: #fff;    
+    padding: 10px;  font-size: 13px;
+    border-left: 0;
+    vertical-align: top;
+    display: inline-block;
+}
+#main_category {
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #ddd;
+}
+#main_category a {
+    text-decoration: none;
+    color: #777;
+}
+#main_body {
+    width: 1000px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff;
+}
+body {
+    font-size: small;  font-family: arial,sans-serif;  padding: 0;  margin: 0;  
+    background-color: #333;  line-height: 20px;
+}

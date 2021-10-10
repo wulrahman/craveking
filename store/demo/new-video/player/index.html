@@ -1,0 +1,23 @@
+<body>
+	<link rel="stylesheet" href="files/css/style.css?q=6">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<script src="files/js/script.js?q=9"></script>
+	<div id="video-container">
+		<!-- Video -->
+		<video autoplay id="video" preload="auto" poster="http://www.videojs.com/img/poster.jpg">
+
+        	<source src="http://video.webmfiles.org/elephants-dream.webm">
+		<source src="http://vjs.zencdn.net/v/oceans.mp4">
+			<p>
+				Your browser doesn't support HTML5 video.
+				<a href="http://vjs.zencdn.net/v/oceans.mp4">Download</a> the video instead.
+			</p>
+		</video>
+		<!-- Video Controls -->
+		<div id="video-controls">
+        		<div id="round-seek"><div id="round-progress" draggable="true" class="ui-draggable"><div id="round-inside"></div></div><div id="seek-bar" height="10px" min="0" max="100" value="0"><div id="innerprogress"></div><div id="innerbuffer"></div></div></div><div id="play-pause" class="play"></div><label id="timer"></label><div id="full-screen" class="fullscreen"></div><div id="volume" class="volume"><div id="mute" class="sound_up"></div><input type="range" id="volume-bar" min="0" max="100" step="1" value=""></div>      
+		</div>
+	</div>
+</body>

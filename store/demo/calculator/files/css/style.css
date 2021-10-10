@@ -1,0 +1,76 @@
+body {
+    font-family: arial,sans-serif;
+}
+input.c-button.can-button {
+    background-color: #d00;
+    color: #fff;
+}
+
+input.c-button.equal-buttom {
+    background-color: #d50;
+    color: #fff;
+}
+
+input.c-button.q-button {
+    background-color: #ececec;
+}
+#calculator {
+    
+    
+    
+    
+    
+    width: 220px;
+    cursor: move;
+    /* Old browsers */
+    /* FF3.6+ */
+    /* Chrome,Safari4+ */
+    /* Chrome10+,Safari5.1+ */
+    /* Opera 11.10+ */
+    /* IE10+ */
+    /* W3C */
+    /* IE6-9 */
+    ;
+    
+    
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    opacity: 0.9;
+    z-index: 10;
+    padding: 10px;  
+    background-color: #444;            
+}
+.c-button {
+    vertical-align: middle;
+    border: 0;
+    background-color: #fff;
+    color: #777;
+    -moz-border-radius: 4px;
+    font-size: 13px;
+    width: 25%;
+    padding: 16.5px;
+    text-align: center;
+    text-decoration: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    box-sizing: border-box;
+}
+.c-input {
+    font-size: 20px;
+    width: 100%;
+    vertical-align: middle;
+    background: #fff;
+    border: 0;
+    padding: 20px 15px;
+    letter-spacing: 2;
+}
+.footer {
+    color: #666;
+    font-size: 10pt;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    padding: 15px 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

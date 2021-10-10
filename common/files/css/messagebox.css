@@ -1,0 +1,123 @@
+/*messages*/
+
+#message {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 300px;
+}
+#messagemain #messageheader {
+    padding: 5px;
+    margin: 10px 0;
+    font-weight: 100;
+    text-align: center;
+    font-size: 14px;
+}
+#messagemain .messagereplies {
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+    font-size: 13px;
+    display: block;
+    height: 262px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+#messagemain .messagereplies .receivedmessage {
+    background-color: #3abc32;
+    color: #fff;
+    float: left;
+    text-align: left;
+}
+#messagemain .messagereplies .sentmessage {
+    background-color: #356799;
+    color: #fff;
+    float: right;
+    text-align: right;
+}
+#messagemain .messagereplies li {
+    max-width: 230px;
+    padding: 5px 10px 7px 10px;
+    margin: 0 0 10px 0;
+    line-height: 1.8;
+}
+#message #messagemain {
+    display: inline-block;
+    vertical-align: bottom;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    background-color: #fff;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    -webkit-box-shadow: -1px -1px 10px -1px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: -1px -1px 10px -1px rgba(0, 0, 0, 0.30);
+    box-shadow: -1px -1px 10px -1px rgba(0, 0, 0, 0.30);
+}
+#message #messagebox {
+    display: block;
+    margin: 0;
+    border-top: 1px dashed #eee;
+    text-align: center;
+}
+#message #mainmessagebox {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 0;
+    font-size: 13px;
+    height: 40px;
+    resize: none;
+    background-color: transparent;
+    overflow: auto;
+    margin: 0;
+    padding: 10px;
+}
+#message #messagebox input[type="image"] {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+#message #messagecategory {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0 10px 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-y: auto;
+    vertical-align: bottom;
+}
+#message #messagecategory li.active {
+    background-color: #1E7192;
+}
+#message #messagecategory li {
+    padding: 5px 10px;
+    font-size: 13px;
+    background-color: #666366;
+    display: inline-block;
+    margin-right: 3px;
+    color: #fff;
+}
+#message #messagecategory li details {
+    display: inline-block;
+}
+#message #messagecategory ol {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+#messagecategory ol li {
+    padding: 5px 10px 5px 20px !important;
+}

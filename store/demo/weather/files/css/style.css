@@ -1,0 +1,91 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    word-wrap: break-word;
+    font-family: arial,sans-serif;
+    background-image: url(http://www.wellstrungdesigns.com/wp-content/uploads/2013/02/edb2a545584023481571e618740d83fe.jpg);
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.notification {
+    padding: 10px 0;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: 400;
+}
+
+a {
+    color: #12c;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px 5px;
+    background-color: #fff;
+}
+
+.thumbnail {
+    width: 100px;
+    border: 0;
+    margin-bottom: 8px;
+}
+
+
+.page_title {
+    padding: 10px 5px;
+    color: #777;
+    background-color: #fff;
+}
+
+.weather_results {
+    display: block;
+    vertical-align: top;
+    background-color: #fff;
+    padding: 10px;
+    color: #555;
+}
+
+.weather_mains {
+    display: block;
+    margin: 10px;
+    padding: 0;
+    background-color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+.thumbnail_weather_main {
+    width: 100px;
+    background-color: #fff;
+    margin: 10px;
+}
+.weather_results_main {
+    display: block;
+    padding: 10px;
+    background-color: #999ff9;
+}
+.weather_info {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+    color: #fff;
+    width: 360px;
+}
+.weather_info_li {
+    display: inline-block;
+    margin: 10px;
+}
+.main_weather {
+    padding: 3px 10px;
+    background-color: #fff;
+}

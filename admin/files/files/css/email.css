@@ -1,0 +1,112 @@
+#layout,
+#nav,
+#list,
+#main {
+    margin: 0;
+    padding: 0;
+}
+.email-item {
+    color:#333;
+    padding: 0.9em 1em;
+    border-left: 6px solid transparent;
+}
+.email-date {
+    font-size: 12px;
+    padding:5px 0;
+}
+.email-name,
+.email-date {
+    margin: 0;
+}
+.email-name {
+    text-transform: uppercase;
+    color: #999;
+    font-size: 12px;
+}
+.email-desc {
+    font-size: 12px;
+    margin: 0 15px 0 0;
+}
+.email-item-selected {
+    background: #eee;
+}
+.email-item-unread {
+    border-left: 6px solid #1b98f8;
+}
+.email-content-header,
+.email-content-body,
+.email-content-footer {
+    padding: 0;
+}
+.email-content-header {
+    /*!  */
+}
+.email-content-title {
+    margin: 0.5em 0 0;
+}
+.email-content-subtitle {
+    font-size: 1em;
+    margin: 0;
+    font-weight: normal;
+}
+.email-content-subtitle span {
+    color: #999;
+}
+.email-content-controls {
+    /*!  */
+    text-align: right;
+}
+.email-content-controls .secondary-button {
+    margin-bottom: 0.3em;
+}
+
+.email-content-body #noiseWidgIframe {
+    height: calc(100vh - 200.3px)!Important;
+}
+.email-content-body .message {
+  margin: 10px 20px;
+  line-height: 1.5;
+}
+#layout {
+    padding-left: 350px!Important;
+    position: relative;
+}
+
+#list {
+    position: fixed;
+    bottom: 0;
+    overflow: auto;
+    top: 85px;
+    width: 350px;
+    border-right: 1px solid #ddd;
+    height: calc(100vh - 85px);
+    left: 0px;
+    background-color: #eee;
+}
+#main {
+    top: 33%;
+    right: 0;
+    bottom: 0;
+    left: 150px;
+    overflow: auto;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+
+/*email-main*/
+#email-main #form-main {
+  max-width: 100%;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+#email-main .email-content-title {
+    margin: 0;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+#email-main .email-content-title input[type="text"] {
+    border:0;
+}

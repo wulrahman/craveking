@@ -1,0 +1,60 @@
+body {
+font-family: arial,sans-serif;
+}
+#calculator {
+	
+margin: 0 0;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+	border-radius: 5px;
+
+	
+width: 188px;
+cursor: move; /* Old browsers */   /* FF3.6+ */   /* Chrome,Safari4+ */   /* Chrome10+,Safari5.1+ */   /* Opera 11.10+ */   /* IE10+ */   /* W3C */   /* IE6-9 */;                
+
+	
+/* padding: 10px; */
+border-left: 1px solid #ddd;
+border-top: 1px solid #ddd;
+-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.2);  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+.c-button {
+vertical-align: middle;
+border: 0;
+border-right: #d5d5d5 solid 1px;
+border-bottom: #d5d5d5 solid 1px;
+background-color: #ececec;
+color: #777;
+font-size: 13px;
+width: 25%;
+padding: 15.5px 0;
+text-align: center;
+text-decoration: none;
+-moz-user-select: none;
+box-sizing: border-box;
+-webkit-user-select: none;
+}
+.c-input {
+font-size: 20px;
+width: 100%;
+vertical-align: middle;
+border: 0;
+background: #fff;
+border-bottom: 1px solid #d9d9d9;
+border-right: 1px solid #d9d9d9;
+padding: 13px;
+border-radius: 4px 4px 0 0;
+height: 60px;
+}
+.footer {
+    color: #666;
+    font-size: 10pt;
+    background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+    padding: 15px 30px;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+}

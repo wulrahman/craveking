@@ -1,0 +1,102 @@
+div#noiseWidgContainer {
+    padding: 0;
+}
+#noiseWidgContainer ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px 0 0!Important;
+    height: 20px;
+}
+#noiseWidgContainer ul li select {
+    height: 20px;
+}
+#noiseWidgContainer ul {
+    margin: 0!Important;
+    padding: 7px!Important;
+    display: block;
+}
+
+#noiseWidgContainer ul a {
+    text-decoration: none;
+}
+div#noiseWidgContainer {padding: 0;margin: 0;
+/*!  */background-color: #f9f7f7;}
+div#noiseWidgContainer input[type=submit] {
+    background-color: #0573D5;
+    border: 0;
+    color: #fff;
+    margin: 10px;
+    font-weight: 600;
+}
+div#noiseWidgContainer iframe{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: inherit;
+    display: block;
+    width: 100%;
+    border: 0;
+    /*!  */
+    margin: 0;
+    /*!  */
+    background-color: #fff;
+    height: 250px;
+    overflow-y: scroll;
+    resize: both;
+}
+#noiseWidgContainer textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: inherit;
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    border-left: 1px solid #eee;
+    background-color: #fff;
+    height:150px;
+    overflow-y: scroll;
+    resize: both;
+}
+a.widgButtonLink {
+    background-position: 0 -98px!important;
+}
+
+a.widgButtonBold {
+    background-position: 0 -384px!important;
+}
+
+#noiseWidgContainer ul a {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background: url(../img/icons.png) no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+
+a.widgButtonItalic {
+    background-position: 0 -24px!important;
+}
+
+a.widgButtonUnordered a {
+    background-position: 0 -50px!important;
+}
+
+a.widgButtonUnordered {
+    background-position: 0 -74px!important;
+}
+
+a.widgButtonOrdered {
+    background-position: 0 -50px!important;
+}
+
+a.widgButtonImage{
+    background-position: 0 -123px!important;
+}
+
+a.widgButtonHTML {
+    background-position: 0 -195px!important;
+}

@@ -1,0 +1,98 @@
+RewriteEngine on
+
+RewriteBase /craveking/
+
+Deny from env=block_bad_bots
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
+
+RewriteRule .* [F,L]
+
+RewriteRule ^$ store/index.php [L]
+
+RewriteRule ^content$ common/ [L]
+
+RewriteRule ^ddos$ common/?action=ddos [L]
+
+RewriteRule ^tos$ common/?action=tos [L]
+
+RewriteRule ^privacy$ common/?action=privacy [L]
+
+RewriteRule ^setting$ common/?action=setting [L]
+
+RewriteRule ^forgot$ common/?action=forgot [L]
+
+RewriteRule ^login$ common/?action=login [L]
+
+RewriteRule ^register$ common/?action=register [L]
+
+RewriteRule ^logout$ common/?action=logout [L]
+
+RewriteRule ^verify/([^/\.]+)/([^/\.]+)$ common/?action=validate&id=$1&hash=$2 [L]
+
+RewriteRule ^purchased/([^/\.]+)$  store/auth/?action=purchased&page=$1 [L]
+
+RewriteRule ^purchased$ store/?action=purchased [L]
+
+RewriteRule ^download/([^/\.]+)$ store/?action=download&id=$1 [L]
+
+RewriteRule ^product/([^/\.]+)$ store/?action=product&id=$1 [L]
+
+RewriteRule ^product/([^/\.]+)/([^/\.]+)$ store/?action=product&id=$1&page=$2 [L]
+
+RewriteRule ^demo/([^/\.]+)$ store/?action=demo&id=$1 [L]
+
+RewriteRule ^cart$ store/?action=cart [L]
+
+RewriteRule ^payment$ paypal/ [L]
+
+RewriteRule ^forum/view/([^/\.]+)$ forum/?action=view&id=$1 [L]
+
+RewriteRule ^forum/mypost$ forum/?action=my_post [L]
+
+RewriteRule ^forum/mypost/([^/\.]+)$ forum/?action=my_post&page=$1 [L]
+
+RewriteRule ^forum/replies$ forum/?action=replys [L]
+
+RewriteRule ^forum/replies/([^/\.]+)$ forum/?action=replys&page=$1 [L]
+
+RewriteRule ^forum/topic/([^/\.]+)$ forum/?action=topic&id=$1 [L]
+
+RewriteRule ^forum/topic/([^/\.]+)/([^/\.]+)$ forum/?action=topic&id=$1&page=$2 [L]
+
+RewriteRule ^forum/([^/\.]+)$ forum/?page=$1 [L]
+
+RewriteRule ^redirect/([^/\.]+)/([^/\.]+)$ common/?action=redirect&type=$1&id=$2 [L]
+
+ErrorDocument 404 /common/?action=404
+
+
+Header unset ETag
+
+FileETag None
+
+# 480 weeks
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=290304000, public"
+</FilesMatch>
+
+# 2 DAYS
+<FilesMatch "\.(xml|txt)$">
+Header set Cache-Control "max-age=172800, public, must-revalidate"
+</FilesMatch>
+
+# 2 HOURS
+<FilesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=7200, must-revalidate"
+</FilesMatch>
+
+<ifModule mod_gzip.c>
+  mod_gzip_on Yes
+  mod_gzip_dechunk Yes
+  mod_gzip_item_include file \.(html?|txt|css|js|php|pl|swf)$
+  mod_gzip_item_include handler ^cgi-script$
+  mod_gzip_item_include mime ^text/.*
+  mod_gzip_item_include mime ^application/x-javascript.*
+  mod_gzip_item_exclude mime ^image/.*
+  mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</ifModule>

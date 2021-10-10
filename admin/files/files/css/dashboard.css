@@ -1,0 +1,666 @@
+/*dashbody*/
+#dashbody {
+  padding: 0;
+  overflow-y: auto;
+  margin: 0;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*grid canvas*/
+
+#grid canvas {
+    height: 343px;
+    width: 100%;
+    z-index: 100;
+}
+#grid .grid {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fcfcfc;
+    margin-left: 0;
+    padding: 0;
+}
+#grid {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*grid canvas*/
+
+#grid canvas {
+    height: 343px;
+    width: 100%;
+    z-index: 100;
+}
+#grid .grid {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fcfcfc;
+    margin-left: 0;
+    padding: 0;
+}
+#grid {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*row*/
+#rowdashboard {
+  padding: 10px;
+  margin: 0;
+}
+
+/*nav*/
+#nav .nav-label-sale,
+#nav .nav-label-revenue,
+#nav .nav-label-member,
+#nav .nav-label-download {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 0.5em;
+    border-radius: 3px;
+}
+#nav .nav-label-sale {
+    background-color: #6495ed;
+}
+#nav .nav-label-revenue {
+    background-color: #6b8e23;
+}
+#nav .nav-label-member {
+    background-color: #ffa500;
+}
+#nav .nav-label-download {
+    background-color: #ff6347;
+}
+
+/*chart*/
+.chart canvas {
+  width: 100%;
+  height: 300px;
+}
+.chart .chartmain {
+  background-color: #fff;
+  /*!  */
+  margin: 0 10px;
+}
+
+/*dolist*/
+#dolist ul {
+  list-style: none;
+  background-color: #fff;
+  padding: 0;
+  margin: 0 10px;
+  height: 340px;
+}
+
+/*summary*/
+#summary {
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#summary li {
+  text-align: center;
+  display: inline-block;
+}
+
+#summary li .summaryvalue {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 100;
+}
+
+#summary li h3 {
+  padding: 10px;
+}
+#summary li span[class="summarydescription"] {
+  padding: 10px;
+  display: block;
+  font-size: 12px;
+  background-color: #fff;
+}
+#summary li .summarymain {
+  padding: 10px !important;
+}
+#summary li.order h3 {
+  background-color: #fff;
+}
+#summary li.revenue h3 {
+   background-color: #f5f5f5;
+}
+#summary li.member h3 {
+  background-color: #edeaea;
+}
+#summary li.download h3 {
+   background-color: #ddd;
+}
+#summary li.refunds h3 {
+   background-color: #c2c2c2;
+}
+#summary .changestatistics {
+  display: inline-block;
+  /*!  */
+  font-size: 12px;
+  position: absolute;
+}
+#summary .changestatistics.increase {
+  /*!  */
+  color: #23b420;
+}
+#summary .changestatistics.decrease {
+  color: #b43939;
+}
+#summary .summarymain .summaryvalue .icon {
+  padding: 0 5px 0 0;
+  font-size: 12px;
+  color: #252A3A;
+  vertical-align: middle;
+}
+
+/*input-prepend*/
+.input-prepend #range {
+  border: 0;
+}
+/*chart*/
+#chart {
+    height: 280px;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+}
+form.form-horizontal {
+    /*!  */
+}
+svg.xchart {
+    border-top: 0;
+    /*!  */
+    width: auto;
+}
+svg.xchart {/*!  */width: 100%;}div#content {
+    margin-bottom: 20px;
+}
+.chartmain fieldset {
+    border: 0!Important;
+    border-bottom: 1px dashed #ddd!Important;
+    padding: 5px !important;
+    margin: 0!Important;
+}
+.ex-tooltip {
+    padding: 5px;
+    position: absolute;
+    display: none;
+}
+
+/*daterangepicker*/
+.daterangepicker.dropdown-menu {
+    max-width: none;
+}
+.daterangepicker.opensright .ranges {
+    margin: 0;
+	float: right;
+    padding: 0 0 10px 0;
+}
+.daterangepicker.opensright .calendar {
+    float: right;
+    margin: 4px;
+}
+
+.daterangepicker .ranges {
+    width: 148px;
+    text-align: center;
+    /*!  */
+}
+
+.daterangepicker .ranges li {
+    cursor: pointer;
+    font-size: 13px;
+    /*!  */
+    /*!  */
+    color: #08c;
+    padding: 5px 10px;
+    /*!  */
+    /*!  */
+    text-align: left;
+}
+.daterangepicker .ranges label {
+    font-size: 11px;
+    color: #333;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #fff
+}
+
+.daterangepicker .ranges li.active{
+    color: #fff;
+    background: #08c;
+    border: 1px solid #08c
+}
+.daterangepicker .ranges li:hover {
+    color: #fff;
+    background: #08c;
+    /*!  */
+}
+.daterangepicker .ranges .range_inputs>div:nth-child(2) {
+    padding-left: 11px;
+    text-align: left;
+}
+.daterangepicker .calendar {
+    border: 1px solid #ddd;
+    display: none;
+    padding: 4px;
+    border-radius: 4px;
+    background: #fff;
+    max-width: 230px;
+}
+
+.daterangepicker .calendar th{
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.daterangepicker .calendar td{
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.daterangepicker {
+    top: 100px;
+    left: 20px;
+    margin-top: 1px;
+    padding: 0;
+    background: #fff;
+    position: absolute;
+    border: 1px solid #ddd;
+}
+.daterangepicker.opensleft:before{
+    position: absolute;
+    right: 9px;
+    content: '';
+    top: -7px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-bottom-color: rgba(0, 0, 0, .2);
+    border-left: 7px solid transparent;
+}
+.daterangepicker.opensleft:after{
+    right: 10px;
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -6px;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+    border-left: 6px solid transparent;
+}
+.daterangepicker.opensright:before{
+    position: absolute;
+    left: 9px;
+    content: '';
+    top: -7px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-bottom-color: #ccc;
+    border-left: 7px solid transparent;
+}
+.daterangepicker.opensright:after {
+    left: 10px;
+    position: absolute;
+    display: block;
+    content: '';
+    top: -6px;
+    /*!  */
+    /*!  */
+    /*!  */
+}
+.daterangepicker td{
+    width: 20px;
+    height: 20px;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding: 2px;
+}
+
+.daterangepicker th {
+    width: 20px;
+    height: 20px;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.daterangepicker td.available:hover{
+    background: #eee;
+}
+.daterangepicker th.available:hover {
+    background: #eee;
+}
+.daterangepicker td.in-range {
+    background: #ebf4f8;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.daterangepicker td.active{
+    color: #fff;
+    background-color: #006dcc;
+    background-image: -moz-linear-gradient(top, #0088cc, #04c);
+    background-image: -ms-linear-gradient(top, #0088cc, #04c);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#04c));
+    background-image: -webkit-linear-gradient(top, #0088cc, #04c);
+    background-image: -o-linear-gradient(top, #0088cc, #04c);
+    background-image: linear-gradient(top, #0088cc, #04c);
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
+    border-color: #0044cc #04c #002a80;
+    border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled false);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .25)
+}
+.daterangepicker td.active:hover {
+    color: #fff;
+    background-color: #006dcc;
+    background-image: -moz-linear-gradient(top, #0088cc, #04c);
+    background-image: -ms-linear-gradient(top, #0088cc, #04c);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#04c));
+    background-image: -webkit-linear-gradient(top, #0088cc, #04c);
+    background-image: -o-linear-gradient(top, #0088cc, #04c);
+    background-image: linear-gradient(top, #0088cc, #04c);
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
+    border-color: #0044cc #04c #002a80;
+    border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled false);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .25)
+}
+.daterangepicker td.week{
+    font-size: 80%;
+    color: #ccc
+}
+.daterangepicker th.week {
+    font-size: 80%;
+    color: #ccc
+}
+.daterangepicker table {
+    width: 100%;
+    margin: 0;
+}
+.daterangepicker .ranges ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    b: ;
+}
+.daterangepicker.opensleft .ranges {
+    float: left;
+    margin: 4px;
+}
+.daterangepicker.opensleft .calendar {
+    float: left;
+    margin: 4px;
+}
+.daterangepicker .ranges .range_inputs>div {
+    float: left;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.daterangepicker .ranges input {
+    font-size: 11px;
+}
+
+.daterangepicker td.off{
+    color: #999;
+}
+.daterangepicker td.disabled {
+    color: #999;
+}
+
+/*xchart*/
+.xchart .fill {
+    stroke-width: 0
+}
+.xchart .axis .tick {
+    stroke: #EEE;
+    stroke-width: 1px;
+}
+.xchart .axis text {
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    fill: #666;
+    font-size: 12px;
+}
+.xchart .color0 .line {
+    stroke: #3880aa;
+}
+.xchart .color0 rect{
+    fill: #3880aa;
+}
+.xchart .color0 circle {
+    fill: #3880aa;
+}
+.xchart .color0 .fill {
+    fill: rgba(56, 128, 170, .1)
+}
+.xchart .color0.comp .line {
+    stroke: #89bbd8;
+}
+.xchart .color1 .line {
+    stroke: #4da944;
+}
+.xchart .color1 rect{
+    fill: #4da944;
+}
+.xchart .color1 circle {
+    fill: #4da944;
+}
+.xchart .color1 .fill {
+    fill: rgba(77, 169, 68, .1);
+}
+.xchart .color1.comp .line {
+    stroke: #9dd597;
+}
+.xchart .color2 .line {
+    stroke: #f26522;
+}
+.xchart .color2 rect{
+    fill: #f26522;
+}
+.xchart .color2 circle {
+    fill: #f26522;
+}
+.xchart .color2 .fill {
+    fill: rgba(242, 101, 34, .1);
+}
+.xchart .color2.comp .line {
+    stroke: #f9b99a;
+}
+.xchart .color3 .line {
+    stroke: #c6080d;
+}
+.xchart .color3 rect{
+    fill: #c6080d;
+}
+.xchart .color3 circle {
+    fill: #c6080d;
+}
+.xchart .color3 .fill {
+    fill: rgba(198, 8, 13, .1);
+}
+.xchart .color3.comp .line {
+    stroke: #f8555a;
+}
+.xchart .color4 .line {
+    stroke: #672d8b;
+}
+.xchart .color4 rect{
+    fill: #672d8b;
+}
+.xchart .color4 circle {
+    fill: #672d8b;
+}
+.xchart .color4 .fill {
+    fill: rgba(103, 45, 139, .1);
+}
+.xchart .color4.comp .line {
+    stroke: #a869ce;
+}
+.xchart .color5 .line {
+    stroke: #ce1797;
+}
+.xchart .color5 rect{
+    fill: #ce1797;
+}
+.xchart .color5 circle {
+    fill: #ce1797;
+}
+.xchart .color5 .fill {
+    fill: rgba(206, 23, 151, .1);
+}
+.xchart .color5.comp .line {
+    stroke: #f075cb;
+}
+.xchart .color6 .line {
+    stroke: #d9ce00;
+}
+.xchart .color6 rect {
+    fill: #d9ce00;
+}
+.xchart .color6 circle {
+    fill: #d9ce00;
+}
+.xchart .color6 .fill {
+    fill: rgba(217, 206, 0, .1);
+}
+.xchart .color6.comp .line {
+    stroke: #fff75a;
+}
+.xchart .color7 .line {
+    stroke: #754c24;
+}
+.xchart .color7 rect,
+.xchart .color7 circle {
+    fill: #754c24;
+}
+.xchart .color7 .fill {
+    fill: rgba(117, 76, 36, .1);
+}
+.xchart .color7.comp .line {
+    stroke: #c98c50;
+}
+.xchart .color8 .line {
+    stroke: #2eb9b4;
+}
+.xchart .color8 rect,
+.xchart .color8 circle {
+    fill: #2eb9b4;
+}
+.xchart .color8 .fill {
+    fill: rgba(46, 185, 180, .1);
+}
+.xchart .color8.comp .line {
+    stroke: #86e1de;
+}
+.xchart .color9 .line {
+    stroke: #0e2e42;
+}
+.xchart .color9 rect,
+.xchart .color9 circle {
+    fill: #0e2e42;
+}
+.xchart .color9 .fill {
+    fill: rgba(14, 46, 66, .1);
+}
+.xchart .color9.comp .line {
+    stroke: #2477ab;
+}
+
+div.daterangepicker.dropdown-menu,
+.xchart .color0.comp .fill,
+.xchart .color1.comp .fill,
+.xchart .color2.comp .fill,
+.xchart .color3.comp .fill,
+.xchart .color4.comp .fill,
+.xchart .color5.comp .fill,
+.xchart .color6.comp .fill,
+.xchart .color7.comp .fill,
+.xchart .color8.comp .fill,
+.xchart .color9.comp .fill {
+    display: none;
+}
+
+.xchart .line{
+    stroke-width: 3px;
+    fill: none;
+}
+.xchart circle {
+    stroke-width: 3px;
+    stroke: #FFF;
+}
+.xchart .axis .domain {
+    fill: none;
+}
+.xchart .color0.comp rect,
+.xchart .color0.comp circle,
+.xchart .color0.comp .pointer {
+    fill: #89bbd8
+}
+.xchart .color1.comp rect,
+.xchart .color1.comp circle,
+.xchart .color1.comp .pointer {
+    fill: #9dd597
+}
+.xchart .color2.comp rect,
+.xchart .color2.comp circle,
+.xchart .color2.comp .pointer {
+    fill: #f9b99a
+}
+.xchart .color3.comp rect,
+.xchart .color3.comp circle,
+.xchart .color3.comp .pointer {
+    fill: #f8555a
+}
+.xchart .color4.comp rect,
+.xchart .color4.comp circle,
+.xchart .color4.comp .pointer {
+    fill: #a869ce
+}
+.xchart .color5.comp rect,
+.xchart .color5.comp circle,
+.xchart .color5.comp .pointer {
+    fill: #f075cb
+}
+.xchart .color6.comp rect,
+.xchart .color6.comp circle,
+.xchart .color6.comp .pointer {
+    fill: #fff75a
+}
+.xchart .color7.comp rect,
+.xchart .color7.comp circle,
+.xchart .color7.comp .pointer {
+    fill: #c98c50
+}
+.xchart .color8.comp rect,
+.xchart .color8.comp circle,
+.xchart .color8.comp .pointer {
+    fill: #86e1de
+}
+.xchart .color9.comp rect,
+.xchart .color9.comp circle,
+.xchart .color9.comp .pointer {
+    fill: #2477ab
+}

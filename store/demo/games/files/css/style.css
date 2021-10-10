@@ -1,0 +1,129 @@
+a.game_name {
+    display: block;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #777;
+    text-decoration: none;
+    padding: 10px;
+    border-top: 0;
+}
+#pagination ul {
+margin: 0;
+padding: 0;
+}
+#pagination li {
+display: inline-block;
+margin-right: 10px;
+width: auto;
+}
+#pagination {
+list-style: none;
+display: block;
+padding: 10px;
+}
+#pagination a {
+color: #555;
+text-decoration: none;
+padding: 15px;
+}
+div.game_main {
+padding: 0 20px;
+margin: 0;
+}
+div.home_main {
+    padding: 10px;
+
+    margin: 0;
+}
+iframe#html_iframe {
+    display: block;
+    border: 1px solid #ddd;
+}
+footer {
+    padding: 10px 0;
+}
+#logo {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 20px;
+    width: 49px;  height: 47px;
+}
+form#form1 {
+    display: inline-block;
+    padding: 9.3px;
+    vertical-align: top;
+}
+header#main_header {
+    border-bottom: 1px solid #ddd;
+    z-index: 100;                           
+    background-color: #ececec;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+}
+img.games_thumb {
+    width: 128px;
+    height: 110px;
+    border: 1px solid #999;
+}
+#home_game_main li {
+    display: inline-block;
+    width: 130px;
+    margin: 10px 10px;  z-index: 100;  
+    background-color: #fcfcfc;  
+    vertical-align: top;
+}
+#home_game_main {
+    margin: 0;
+    vertical-align: top;
+    padding: 0;
+}
+#main_category li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 9px;
+    width: 71px;
+}
+#header_input {
+    padding: 10px;
+    width: 500px;
+    vertical-align: top;  
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-right: 0;;
+    font-size: 13px;
+    border-radius: 5px 0 0 5px;
+}
+#header_search {  background-color: #fff;    color: #fff;    
+    padding: 10px 16.5px;  font-size: 13px;
+  
+    vertical-align: top;
+    display: inline-block;
+  border-radius: 0 5px 5px 0;  border: 1px solid #ddd;  border-left: 0;  background-image: url(http://localhost/z-beta/games/files/image/icon-search.png);}
+#main_category {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+#main_category a {
+    text-decoration: none;
+    color: #777;
+}
+#main_body {
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+body {
+    font-size: small;  font-family: arial,sans-serif;  padding: 0;      line-height: 20px;
+    color: #555;
+    width: 1000px;
+    margin: 20px auto;
+    border:  1px solid #ddd;
+    border-radius: 5px;
+    background-image: url(http://192.168.1.107/demo/games/files/image/background.png);
+    background-repeat: no-repeat;  background-attachment:fixed;  background-position:center;
+}
+p {
+    margin: 0;
+    padding: 10px 0;
+}
